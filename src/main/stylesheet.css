@@ -61,12 +61,6 @@ body {
     box-sizing: border-box;
 }
 
-.loginpage {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .login {
     width: 360px;
@@ -74,6 +68,10 @@ body {
     padding: 20px;
     border-radius: 10px;
     background: #ffffff;
+    top: 50vh;
+    left: 50vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 
